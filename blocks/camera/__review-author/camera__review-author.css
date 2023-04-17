@@ -1,0 +1,15 @@
+.camera__review-author {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 450px) {
+  .camera__review-author {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,14 @@
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 955px) {
+  .header__list {
+    display: none;
+  }
+}

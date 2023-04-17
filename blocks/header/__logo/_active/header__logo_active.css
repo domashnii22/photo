@@ -1,0 +1,12 @@
+@media (max-width: 955px) {
+  .header__logo_active {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .header__logo_active {
+    display: block;
+    align-self: flex-start;
+  }
+}

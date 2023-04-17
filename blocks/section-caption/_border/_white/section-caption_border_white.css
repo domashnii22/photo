@@ -1,0 +1,6 @@
+@media (max-width: 450px) {
+  .section-caption_border_white {
+    border-top: 1px solid #ffffff;
+    padding-top: 20px;
+  }
+}

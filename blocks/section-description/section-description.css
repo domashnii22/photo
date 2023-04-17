@@ -1,0 +1,13 @@
+.section-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+}
+
+@media (max-width: 450px) {
+  .section-description {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

@@ -1,0 +1,39 @@
+.course__image {
+  position: absolute;
+  max-width: 642px;
+  width: 100%;
+  top: 50px;
+  right: 50px;
+  object-fit: contain;
+}
+
+@media (max-width: 1320px) {
+  .course__image {
+    max-width: 580px;
+  }
+}
+
+@media (max-width: 1140px) {
+  .course__image {
+    max-width: 550px;
+  }
+}
+
+@media (max-width: 1035px) {
+  .course__image {
+    max-width: 530px;
+  }
+}
+
+@media (max-width: 955px) {
+  .course__image {
+    position: static;
+    max-width: 688px;
+  }
+}
+
+@media (max-width: 450px) {
+  .course__image {
+    max-width: 280px;
+  }
+}

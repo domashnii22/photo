@@ -1,0 +1,21 @@
+.composition {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffce00;
+  color: #000000;
+  padding: 50px;
+  position: relative;
+}
+
+@media (max-width: 955px) {
+  .composition {
+    padding: 40px;
+    gap: 60px;
+  }
+}
+
+@media (max-width: 450px) {
+  .composition {
+    padding: 40px 20px 20px;
+  }
+}

@@ -1,0 +1,45 @@
+.header__icon {
+  display: none;
+}
+
+@media (max-width: 955px) {
+  .header__icon {
+    display: block;
+    z-index: 5;
+    position: relative;
+    width: 32px;
+    height: 20px;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 955px) {
+  .header__icon::before,
+  .header__icon::after {
+    left: 0;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    transition: all 0.5s ease 0s;
+    background-color: #ffffff;
+  }
+}
+
+@media (max-width: 955px) {
+  .header__icon::before,
+  .header__icon::after {
+    content: "";
+  }
+}
+
+@media (max-width: 955px) {
+  .header__icon::before {
+    top: 0;
+  }
+}
+
+@media (max-width: 955px) {
+  .header__icon::after {
+    bottom: 0;
+  }
+}

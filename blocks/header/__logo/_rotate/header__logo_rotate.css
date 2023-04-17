@@ -1,0 +1,20 @@
+@media (max-width: 955px) {
+  .header__logo_rotate {
+    animation: rotation-logo 0.5s;
+  }
+}
+
+@media (max-width: 450px) {
+  .header__logo_rotate {
+    align-self: flex-start;
+  }
+}
+
+@keyframes rotation-logo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,25 @@
+.section-button {
+  border: 2px solid #000000;
+  border-radius: 9999px;
+  width: 228px;
+  height: 49px;
+  background-color: #ffffff;
+  padding: 0;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  .section-button {
+    width: 169px;
+    height: 40px;
+    font-size: 14px;
+  }
+}
+
+.section-button:hover {
+  font-weight: 500;
+}

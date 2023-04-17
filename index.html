@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Курс по фотографии</title>
+    <script src="./scripts/index.js" defer></script>
+  </head>
+  <body>
+    <div class="page">
+      <div class="page-container">
+        <header class="header">
+          <div
+            class="header__logo"></div>
+          <nav class="header__menu">
+            <ul class="header__list">
+              <li class="header__list-item"><a data-goto=".composition" href="#" class="header__link">Композиция</a></li>
+              <li class="header__list-item"><a data-goto=".camera"  href="#" class="header__link">Камера</a></li>
+              <li class="header__list-item"><a data-goto=".search" href="#" class="header__link">Поиск заказов</a></li>
+            </ul>
+          </nav>
+          <div class="header__icon">
+            <span class="header__span"></span>
+          </div>  
+        </header>
+        <main class="content">
+          <section class="course">
+            <h1 class="course__title">Курс по фотографии</h1>
+            <img src="./images/oleksii-yasinskyi-2p37hls8jkA-unsplash 1.jpg" alt="Лес" class="course__image" />
+            <p class="section-description section-description_place_course">
+              Фотография в природных условиях, уроки по композиции и по
+              пользованию камерой.
+            </p>
+            <button
+              data-goto=".composition"
+              aria-label="Кнопка перехода на следующую секцию"
+              type="button"
+              class="section-button section-button_place_course"
+            >
+              Подробнее
+            </button>
+          </section>
+          <section class="composition">
+            <p class="section-caption section-caption_border_black">композиция</p>
+            <h2 class="composition__title">Изучите композицию</h2>
+            <img src="./images/launde-morel-jYVspgngNf8-unsplash 1.jpg" alt="Дорога" class="composition__image" />
+              <div class="composition__description-block">
+                <p class="section-description">
+                  Вы изучите гармоничное размещение всех элементов изображения на
+                  <span class="composition__description-accent">cнимке.</span>
+                </p>
+                <p class="section-description">
+                  Изучите композицию интуитивную и какие-то определённые законы.
+                </p>
+              </div>
+            <button
+              data-goto=".registration"
+              aria-label="Кнопка перехода на следующую секцию"
+              type="button"
+              class="section-button section-button_place_composition"
+            >
+              Записаться!
+            </button>
+            <ul class="composition__list">
+              <li class="composition__list-item">
+                <p class="section-description section-description_border_bottom">
+                  Правило третей, при котором нужно распологать объекты на
+                  пересечениях.
+                </p>
+              </li>
+              <li class="composition__list-item">
+                <p class="section-description section-description_border_bottom">
+                  Простота: убирай всё лишнее и кадрируй!
+                </p>
+              </li>
+              <li class="composition__list-item">
+                <p class="section-description section-description_border_bottom">
+                  Равновесие: уравновесь пятна объекта и фона.
+                </p>
+              </li>
+              <li class="composition__list-item">
+                <p class="section-description">
+                  3D глубина кадра: расположи объект позади и перед другими
+                  предметами.
+                </p>
+              </li>
+            </ul>
+          </section>
+          <section class="camera">
+            <p class="section-caption section-caption_border_white">камера</p>
+            <h2 class="camera__title">Настройка<br>Съемка<br>Обработка</h2>
+            <img src="./images/caleb-moreno-Uy4_uNnNHDU-unsplash 1.jpg" alt="Лесная чаща" class="camera__image" />
+            <p class="section-caption">отзывы про часть о камерах:</p>
+            <ul class="camera__list">
+              <li class="camera__list-item">
+                <p class="camera__review">
+                  на этом курсе я научился пользоватся камерой, как настоящий
+                  профессионал!
+                </p>
+                <p class="camera__review-author">Питер, водитель.</p>
+                <p class="camera__review-login">&#64;piter123</p>
+              </li>
+              <li class="camera__list-item">
+                <p class="camera__review">
+                  супер крутой курс! на части про фотики я стал разбираться в
+                  предназначении кнопок
+                </p>
+                <p class="camera__review-author">Джон, спортсмен.</p>
+                <p class="camera__review-login">&#64;john_sport</p>
+              </li>
+            </ul>
+          </section>
+          <section class="search">
+            <p class="section-caption section-caption_border_black">поиск заказов</p>
+            <h2 class="search__title">Научим находить заказы!</h2>
+            <img src="./images/nikolay-maslov-XnvLe0u9iM8-unsplash 1.jpg" alt="Дерево" class="search__image" />
+            <p class="section-description section-description_place_search">
+              Мы научим вас искать заказы на всяких фриланс биржах, а когда вы
+              сделаете крутое портфолио, мы поможем найти постоянную работу.
+            </p>
+            <button
+              data-goto=".registration"
+              aria-label="Кнопка перехода на следующую секцию"
+              type="button"
+              class="section-button section-button_place_search"
+            >
+              Записаться!
+            </button>
+          </section>
+          <section class="registration">
+            <div  class="registration__block">
+              <div class="registration__arrow"></div>
+              <h2 class="registration__title">Записаться!<br>Сейчас!</h2>
+            </div>
+            <form novalidate name="registrationForm" class="registration__form">
+              <input
+                required
+                name="email"
+                placeholder="Ваша почта"
+                type="email"
+                class="registration__input"
+                minlength="2"
+                maxlength="200"
+              />
+              <button
+                type="submit"
+                class="section-button section-button_place_registration"
+              >
+                Записаться!
+              </button>
+            </form>
+          </section>
+        </main>
+        <footer class="footer">
+          <p class="footer__copyright">&copy; 2023. Гуськов Алексей</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

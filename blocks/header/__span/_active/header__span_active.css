@@ -1,0 +1,6 @@
+@media (max-width: 955px) {
+  .header__span_active {
+    transform: scale(0) translate(0px, -50%);
+    transition: transform 0.5s;
+  }
+}

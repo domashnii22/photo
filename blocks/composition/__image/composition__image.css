@@ -1,0 +1,36 @@
+.composition__image {
+  position: absolute;
+  max-width: 642px;
+  width: 100%;
+  top: 50px;
+  right: 50px;
+  object-fit: contain;
+}
+
+@media (max-width: 1150px) {
+  .composition__image {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .composition__image {
+    max-width: 560px;
+  }
+}
+
+@media (max-width: 955px) {
+  .composition__image {
+    max-width: 688px;
+    max-height: 685px;
+    position: static;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 450px) {
+  .composition__image {
+    max-width: 280px;
+    max-height: 278px;
+  }
+}

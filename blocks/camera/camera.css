@@ -1,0 +1,21 @@
+.camera {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 50px;
+  position: relative;
+}
+
+@media (max-width: 955px) {
+  .camera {
+    padding: 40px;
+    gap: 60px;
+  }
+}
+
+@media (max-width: 450px) {
+  .camera {
+    padding: 40px 20px 20px;
+  }
+}

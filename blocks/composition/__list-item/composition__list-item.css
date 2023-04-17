@@ -1,0 +1,27 @@
+.composition__list-item {
+  max-width: 291px;
+  width: 100%;
+}
+
+@media (max-width: 955px) {
+  .composition__list-item {
+    max-width: 100%;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 28px;
+  }
+}
+
+@media (max-width: 450px) {
+  .composition__list-item {
+    padding-bottom: 12px;
+    max-width: 265px;
+  }
+}
+
+@media (max-width: 955px) {
+  .composition__list-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
+

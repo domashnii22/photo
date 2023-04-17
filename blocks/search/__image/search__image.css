@@ -1,0 +1,21 @@
+.search__image {
+  position: absolute;
+  max-width: 648px;
+  width: 100%;
+  top: 362px;
+  left: 50px;
+  object-fit: contain;
+}
+
+@media (max-width: 1150px) {
+  .search__image {
+    max-width: 550px;
+  }
+}
+
+@media (max-width: 955px) {
+  .search__image {
+    max-width: 688px;
+    position: static;
+  }
+}

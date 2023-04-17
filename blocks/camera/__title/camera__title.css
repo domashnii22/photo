@@ -1,0 +1,47 @@
+.camera__title {
+  font-weight: 400;
+  font-size: 122px;
+  line-height: 122px;
+  max-width: 620px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 359px;
+}
+
+@media (max-width: 1370px) {
+  .camera__title {
+    font-size: 100px;
+    line-height: 100px;
+  }
+}
+
+@media (max-width: 1270px) {
+  .camera__title {
+    font-size: 85px;
+    line-height: 85px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .camera__title {
+    font-size: 65px;
+    line-height: 75px;
+  }
+}
+
+@media (max-width: 955px) {
+  .camera__title {
+    font-size: 122px;
+    line-height: 122px;
+    margin-top: -20px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 730px) {
+  .camera__title {
+    font-size: 48px;
+    line-height: 56px;
+    margin-top: -30px;
+  }
+}

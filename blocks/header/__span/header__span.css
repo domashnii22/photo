@@ -1,0 +1,17 @@
+@media (max-width: 955px) {
+  .header__span {
+    left: 0;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    transition: all 0.5s ease 0s;
+    background-color: #ffffff;
+  }
+}
+
+@media (max-width: 955px) {
+  .header__span {
+    top: 50%;
+    transform: scale(1) translate(0px, -50%);
+  }
+}

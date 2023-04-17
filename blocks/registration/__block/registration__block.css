@@ -1,0 +1,17 @@
+.registration__block {
+  display: flex;
+  gap: 50px;
+}
+
+@media (max-width: 955px) {
+  .registration__block {
+    display: block;
+  }
+}
+
+@media (max-width: 450px) {
+  .registration__block {
+    border-top: 1px solid #ffffff;
+    padding-top: 20px;
+  }
+}

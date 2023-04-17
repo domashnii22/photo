@@ -1,0 +1,21 @@
+@media (max-width: 955px) {
+  .header__icon_active::before {
+    top: 50%;
+    transform: rotate(-45deg) translate(0px, -50%);
+    transition: transform 0.5s;
+  }
+}
+
+@media (max-width: 955px) {
+  .header__icon_active::after {
+    bottom: 50%;
+    transform: rotate(45deg) translate(0px, 50%);
+    transition: transform 0.5s;
+  }
+}
+
+@media (max-width: 450px) {
+  .header__icon_active {
+    align-self: start;
+  }
+}

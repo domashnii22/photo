@@ -1,0 +1,18 @@
+.registration__form {
+  display: flex;
+  margin-left: 179px;
+  margin-top: 120px;
+}
+
+@media (max-width: 955px) {
+  .registration__form {
+    margin-left: 0;
+    margin-top: 190px;
+  }
+}
+
+@media (max-width: 590px) {
+  .registration__form {
+    margin-top: 200px;
+  }
+}

@@ -1,0 +1,24 @@
+.section-button_place_search {
+  align-self: flex-end;
+  margin-top: 148px;
+  margin-right: 152px;
+}
+
+@media (max-width: 1150px) {
+  .section-button_place_search {
+    margin-right: 62px;
+  }
+}
+
+@media (max-width: 955px) {
+  .section-button_place_search {
+    align-self: flex-start;
+    margin: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .section-button_place_search {
+    margin-top: -30px;
+  }
+}

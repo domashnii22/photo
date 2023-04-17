@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #df2626;
+  color: #fbfbfb;
+  padding: 22px 50px;
+  position: fixed;
+  z-index: 5;
+  max-width: 1440px;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+}
+
+@media (max-width: 955px) {
+  .header {
+    padding: 24px 40px;
+    min-height: 84px;
+  }
+}
+
+@media (max-width: 450px) {
+  .header {
+    padding: 20px;
+    min-height: auto;
+  }
+}

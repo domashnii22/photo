@@ -1,0 +1,16 @@
+.registration__arrow {
+  background-image: url(../../../images/arrow.svg);
+  width: 129px;
+  height: 95px;
+  cursor: pointer;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 15px;
+}
+
+@media (max-width: 955px) {
+  .registration__arrow {
+display: none;
+  }
+}

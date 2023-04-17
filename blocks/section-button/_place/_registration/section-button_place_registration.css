@@ -1,0 +1,17 @@
+.section-button_place_registration {
+  border-radius: 0px 8px 8px 0px;
+  width: 205px;
+  height: 50px;
+  border-left: 0;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.375px;
+}
+
+@media (max-width: 590px) {
+  .section-button_place_registration {
+    width: 107px;
+    height: 50px;
+    font-size: 11px;
+  }
+}

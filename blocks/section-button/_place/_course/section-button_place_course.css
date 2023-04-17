@@ -1,0 +1,15 @@
+.section-button_place_course {
+  margin-top: 170px;
+}
+
+@media (max-width: 955px) {
+  .section-button_place_course {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .section-button_place_course {
+    margin-top: -30px;
+  }
+}

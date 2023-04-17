@@ -1,0 +1,36 @@
+.composition__title {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  max-width: 403px;
+  width: 100%;
+}
+
+@media (max-width: 1150px) {
+  .composition__title {
+    font-size: 54px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .composition__title {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 955px) {
+  .composition__title {
+    font-size: 64px;
+    margin-top: -20px;
+  }
+}
+
+@media (max-width: 730px) {
+  .composition__title {
+    font-size: 30px;
+    line-height: 38px;
+    margin-top: -30px;
+  }
+}

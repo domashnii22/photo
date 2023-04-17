@@ -1,0 +1,27 @@
+.composition__description-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+@media (max-width: 1120px) {
+  .composition__description-block {
+    max-width: 290px;
+  }
+}
+
+@media (max-width: 955px) {
+  .composition__description-block {
+    max-width: 400px;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .composition__description-block {
+    gap: 36px;
+  }
+}

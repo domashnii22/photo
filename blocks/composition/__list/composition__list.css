@@ -1,0 +1,22 @@
+.composition__list {
+  display: flex;
+  gap: 56px;
+  list-style: none;
+  margin-top: 100px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+@media (max-width: 955px) {
+  .composition__list {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .composition__list {
+    gap: 14px;
+  }
+}

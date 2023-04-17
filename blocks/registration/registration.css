@@ -1,0 +1,19 @@
+.registration {
+  display: flex;
+  flex-direction: column;
+  background-color: #df2626;
+  color: #ffffff;
+  padding: 50px 50px 36px;
+}
+
+@media (max-width: 955px) {
+  .registration {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 450px) {
+  .registration {
+    padding: 40px 20px 20px;
+  }
+}
