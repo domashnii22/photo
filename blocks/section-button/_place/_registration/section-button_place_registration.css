@@ -1,4 +1,9 @@
-.section-button_place_registration {
+.registration__button {
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  padding: 0;
+  cursor: pointer;
+  text-align: center;
   border-radius: 0px 8px 8px 0px;
   width: 205px;
   height: 50px;
@@ -9,9 +14,8 @@
 }
 
 @media (max-width: 590px) {
-  .section-button_place_registration {
+  .registration__button {
     width: 107px;
-    font-size: 7px;
-    letter-spacing: 0.175px;
+    font-size: 11px;
   }
 }
