@@ -11,6 +11,7 @@
 @media (max-width: 590px) {
   .section-button_place_registration {
     width: 107px;
-    font-size: 5px;
+    font-size: 7px;
+    letter-spacing: 0.175px;
   }
 }
