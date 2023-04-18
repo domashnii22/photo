@@ -12,5 +12,6 @@
   .section-button_place_registration {
     width: 107px;
     font-size: 11px;
+    letter-spacing: normal;
   }
 }
