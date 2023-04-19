@@ -11,6 +11,7 @@
   font-size: 18px;
   line-height: 28px;
   text-align: center;
+  transition: font-weight 0.3s;
 }
 
 @media (max-width: 450px) {
